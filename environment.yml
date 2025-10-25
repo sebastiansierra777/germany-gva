@@ -1,0 +1,17 @@
+name: germany_gva
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13.9
+  - pandas
+  - numpy
+  - jupyter
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  - geopandas
+  - pysal
+  - openpyxl
+  - xlrd
