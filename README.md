@@ -93,13 +93,13 @@ You may follow this process as an example:
 1. **For GDP per capita (PPP):**
    - Select **Choose Indicator → Economy → Gross Domestic Product per capita, in USD**
    - Select **Territorial Level: TL3**
-   - Click on latest year available on the bottom right of the map 
+   - Click on **latest year available** on the bottom right of the **map**
    - **Download Data**
 
 2. **For GVA (by industry):**
    - Select **Choose Indicator → Economy → Gross Value Added by Industry**
    - Make sure **Territorial Level: TL3** is still selected
-   - Click on latest year available on the bottom right of the map
+   - Click on **latest year available** on the bottom right of the **map**
    - For each industry category (e.g., *Share of GVA in agriculture, forestry and fishing (Section A)*), download the dataset individually
    - Save all downloaded files into `Data/raw/`
 
