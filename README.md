@@ -21,7 +21,7 @@ This project performs data analysis on Germany's economic indicators, specifical
 ### Prerequisites
 
 - [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-- Git
+- 🔧 Git
 
 ### Setup
 
@@ -48,12 +48,15 @@ pip install -r requirements.txt
 
 ## 📁 Project Structure
 ```
-germany-gva/
+germany_gva/
+├── Data/
+│   ├── raw/            # Original OECD datasets 
+│   └── processed/      # Transformed OECD datasets
 ├── mlr.py              # Main analysis script
 ├── environment.yml     # Conda environment specification
-├── requirements.txt    # Python package requirements
-├── .gitignore         # Git ignore rules
-└── README.md          # Project documentation
+├── requirements.txt    # Python package versions
+├── .gitignore          # Files/folders excluded from version control
+└── README.md           # Project documentation
 ```
 
 ## 💻 Usage
@@ -72,11 +75,39 @@ germany-gva/
 
 ## 📊 Data Sources
 
-- **OECD Data**: https://www.oecd.org/en/data/tools/oecd-regions-and-cities-atlas.html
-  - Germany economic indicators
-  - Gross Value Added (GVA)
-  - GDP per capita (PPP)
-  - For TL3 Regions
+This project follows a clean data pipeline structure. Your datasets should be organized like this:
+```
+germany_gva/
+└── Data/
+    ├── raw/            # Original OECD datasets (user-added)
+    └── processed/      # Generated outputs from analysis
+```
+
+## 📥 Adding the Data
+
+Please manually download the required datasets from the **OECD Regions & Cities Database**:
+🔗 https://www.oecd.org/en/data/tools/oecd-regions-and-cities-atlas.html
+
+You may follow this process as an example:
+
+1. **For GDP per capita (PPP):**
+   - Select **Choose Indicator → Economy → Gross Domestic Product per capita, in USD**
+   - Select **Territorial Level: TL3**
+   - Click on latest year available on the bottom right of the map 
+   - **Download Data**
+
+2. **For GVA (by industry):**
+   - Select **Choose Indicator → Economy → Gross Value Added by Industry**
+   - Make sure **Territorial Level: TL3** is still selected
+   - Click on latest year available on the bottom right of the map
+   - For each industry category (e.g., *Share of GVA in agriculture, forestry and fishing (Section A)*), download the dataset individually
+   - Save all downloaded files into `Data/raw/`
+
+## ⚙️ Processed Data
+
+During analysis, cleaned, merged, or transformed datasets may be exported to the `Data/processed/` folder
+
+✅ This structure supports reproducibility, scalability, and a professional analytical workflow.
 
 ## 📦 Requirements
 
