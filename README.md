@@ -14,7 +14,7 @@ Analysis of Germany's Gross Value Added (GVA) in Industry & Energy and GDP (PPP)
 
 ## 🎯 Overview
 
-This project aims to detect the influence of GVA in Industry & Energy on the German Economy, in particular, in GDP (PPP) Per Capita for the year 2021
+This project aims to detect the influence of GVA in Industry & Energy, and Manufacturing (a subset of the former) on the German Economy, in particular, in GDP (PPP) Per Capita for the year 2021
 
 ## 🚀 Installation
 
