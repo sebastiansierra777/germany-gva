@@ -1,6 +1,6 @@
-# Germany GVA Analysis
+# Germany GVA Analysis: Industry & Energy GVA influence on GDP (PPP) per capita
 
-Analysis of Germany's Gross Value Added (GVA) and GDP (PPP) per capita data sourced from the OECD.
+Analysis of Germany's Gross Value Added (GVA) in Industry & Energy and GDP (PPP) per capita data sourced from the OECD.
 
 ## 📋 Table of Contents
 
@@ -14,7 +14,7 @@ Analysis of Germany's Gross Value Added (GVA) and GDP (PPP) per capita data sour
 
 ## 🎯 Overview
 
-This project performs data analysis on Germany's economic indicators, specifically focusing on Gross Value Added (GVA) and GDP purchasing power parity (PPP) per capita. The analysis uses Python data science tools to explore trends, patterns, and insights in the German economy.
+This project aims to detect the influence of GVA in Industry & Energy on German Economy, in particular, in GDP (PPP) Per Capita for the year 2021
 
 ## 🚀 Installation
 
@@ -95,12 +95,13 @@ You may follow this process as an example:
    - Select **Territorial Level: TL3**
    - Click on **latest year available** on the bottom right of the **map**
    - **Download Data**
+   - Save all downloaded files into `Data/raw/`
 
 2. **For GVA (by industry):**
-   - Select **Choose Indicator → Economy → Gross Value Added by Industry**
+   - Select **Choose Indicator → Economy → Gross Value Added by Industry -> select industry, including energy, and manufacturing**
    - Make sure **Territorial Level: TL3** is still selected
    - Click on **latest year available** on the bottom right of the **map**
-   - For each industry category (e.g., *Share of GVA in agriculture, forestry and fishing (Section A)*), download the dataset individually
+   - **Download Data**
    - Save all downloaded files into `Data/raw/`
 
 ## ⚙️ Processed Data
