@@ -66,12 +66,15 @@ germany_gva/
    conda activate germany_gva
 ```
 
-2. **Run the analysis**
+## Run the analysis
+
+Run each script in order:
 ```bash
-   python mlr.py
+python mlr.py
+python mlr2.py
 ```
 
-   Or open `mlr.py` in PyCharm/Jupyter and run cells individually using `# %%` cell markers.
+Or open the `.py` files in PyCharm/Jupyter and run cells individually using `# %%` cell markers.
 
 ## 📊 Data Sources
 
