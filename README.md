@@ -70,8 +70,10 @@ germany_gva/
 
 Run each script in order:
 ```bash
-python mlr.py
-python mlr2.py
+python gva_merge.py
+python gva_ppp_merge.py
+python linear_reg.py
+python log_linear_reg.py
 ```
 
 Or open the `.py` files in PyCharm/Jupyter and run cells individually using `# %%` cell markers.
